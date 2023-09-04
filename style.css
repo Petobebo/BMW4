@@ -1,0 +1,252 @@
+/* Styles for the loader */
+.loader-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid #f3f3f3;
+    border-top-color: #3498db;
+    animation: spin 1s infinite linear;
+}
+/* Animation for the loader */
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url('https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/newcat/newcat-f.jpg?imwidth=1280');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  
+}
+
+
+
+.splash-content {
+  text-align: center;
+}
+
+.mercedes-title {
+  color: #800080;
+  font-size: 5rem;
+  text-shadow: 2px 2px lightblue;
+  animation: splash 2s ease-in-out forwards;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:blueviolet;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: violet;
+}
+
+main {
+  padding: 50px;
+    color: #fff;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color:lightblue;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px purple;
+}
+
+.product {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.product h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+color: #fff;
+}
+
+.product p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.contact-us {
+  background-color: blueviolet;
+  padding: 50px 0;
+  background-size: 150px;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li i {
+  margin-right: 10px;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+ border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  
+  font-size: 1.2rem;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  background-color: purple;
+  color: lightblue;
+  transition: all .5s linear;
+}
+
+form button:hover {
+  background-color: lightblue;
+  color: purple;
+  transform: translateY(-10px);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-icons li {
+  margin-right: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: rgb(5, 0, 0);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00a8ff;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #fff;
+}
+
+.splash-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes splash {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
