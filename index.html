@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmw</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <section id="intro">
+      <div id="splash-screen">
+        <div class="splash-content">
+          <h1 class="mercedes-title">BMW</h1>
+        </div>
+      </div>
+    </section>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Our Products</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div id="content">
+          <h2>Welcome to Mercedes-Benz</h2>
+          <p>At BMW, excellence and innovation converge to redefine automotive engineering. With a rich history spanning over a century, BMW is synonymous with luxury, performance, and cutting-edge technology. Meticulous craftsmanship, powerful engines, and advanced infotainment systems create a driving experience like no other. BMW's commitment to sustainability and safety further solidify its position as a symbol of prestige and heritage. From the racetrack to the city streets, BMW continues to push boundaries and shape the future of exceptional vehicles.</p>
+          <p>Explore our collection of cars and find your dream ride today!</p>
+
+        </div>
+      </section>
+
+      <section id="products">
+        <div id="content">
+          <h2>Our Car Models</h2>
+          <div class="product">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/all-new-bmw-5-series-is-the-bee-s-knees-sestie_23.jpg">
+            <h3>BMW 5 Series </h3>
+            <p>The BMW 5 Series: Luxury, power, and style combined. 🚗💫</p>
+
+          </div>
+          <div class="product">
+            <img src="https://wallpapercave.com/wp/wp6536660.jpg">
+            <h3>BMW 6 Series
+            </h3>
+            <p>The epitome of automotive luxury and performance with the BMW 6 Series. From its design to its heart-pounding power and advanced technology,🏎💨</p>
+          </div>
+          <div class="product">
+            <img src="https://95octane.com/wp-content/uploads/2021/06/bmw-ix-xdrive50_2.jpg" alt="Product 3">
+            <h3>BMW iX</h3>
+            <p>   The BMW iX is an all-electric SUV that combines sustainable mobility with  cutting-edge technology. Get ready to experience the future of driving with the BMW iX. ⚡🌿🚙 </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-us">
+        <div id="content">
+          <h2>Contact Us</h2>
+          <p>Have a question or comment? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</p>
+          <ul>
+            <li><i class="fa fa-envelope"></i> info@BMW-Germany.com</li>
+            <li><i class="fa fa-phone"></i> 555-555-5555</li>
+            <li><i class="fa fa-map-marker"></i> 123 Main St, Anytown USA</li>
+          </ul>
+          <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="neon-button">Submit</button>
+          </form>
+          <p>Thanks For Submiting✅</p>
+          <p> You Will Be In Contact In No Time </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+       <div id="content">
+        <h3>Connect with us</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+        </ul>
+        <hr>
+        <p>&copy; 2023 BMW-Germany</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+  
+
+    <script>
+        // Optional: Show the loader when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            var loader = document.querySelector(".loader-container");
+            loader.style.display = "block";
+        });
+
+        // Optional: Hide the loader after a specific delay (e.g., 2 seconds)
+        setTimeout(function() {
+            var loader = document.querySelector(".loader-container");
+            loader.style.display = "none";
+        }, 2000);
+    </script>
+</html>
